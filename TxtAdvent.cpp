@@ -179,9 +179,9 @@ void setupTiles(){
 	world[17]->event = "barbarian";
 	world[10]->event = "orc";
 	world[3]->event = "demon";
-	//ct = world[31]; UNCOMMENT ON RELEASE
-	cout << "Debug mode: starting point changed." << endl;
-	ct = world[29];
+	ct = world[31];
+	/*cout << "Debug mode: starting point changed." << endl;
+	ct = world[29];*/
 }
 
 void clear(tile* t){
